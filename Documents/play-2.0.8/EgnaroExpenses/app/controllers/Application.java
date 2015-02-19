@@ -34,8 +34,7 @@ public class Application extends Controller {
 	    emp.setBDate(billDate);
 	    emp.setBAmt(billAmt);
 	    emp.setBPhotopath(Photopath);
-	   //mp.saveImage(Photopath);
-	   // Gson gson = new Gson();
+	 
 	    DBObjects.datastore.save(emp);
 	    Image img=new Image();
 	    img.saveImage(Photopath);
