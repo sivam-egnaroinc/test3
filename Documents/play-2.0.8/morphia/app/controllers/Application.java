@@ -14,6 +14,7 @@ public class Application extends Controller {
 	  Customer ctr=new Customer();
 	  User use=new User();
 	  use.saveImageIntoMongoDB();
+	  System.out.println("This is morphia project");
 	  
 	  
 	  
